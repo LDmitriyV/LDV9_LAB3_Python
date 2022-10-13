@@ -75,9 +75,7 @@ def main():
                         min_digit = j
                     if max_digit < j:
                         max_digit = j
-            # переменая для подсчета единиц во втором столбце
-              # перебираем каждую строку
-            if max_digit/(min_digit - min_digit*2) != 10:  # если второй элемент строки равен 1
+            if max_digit/(min_digit - min_digit*2) != 10:
                 print("Максимальный элемент в таблице меньше минимального в 10 раз. Задание не будет выполнено.")
             else:
                 try:
@@ -87,7 +85,7 @@ def main():
                                 array[i][j] = 1
                             if array[i][j] < 0:
                                 array[i][j] = abs(array[i][j])
-                except ValueError:  # если в строке нет 0
+                except ValueError:
                     break
                 print("Отрицательные числа заменены на их значения по модулю")
                 print("Все 0 были заменены на 1.")

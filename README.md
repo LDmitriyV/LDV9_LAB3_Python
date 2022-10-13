@@ -3,4 +3,4 @@
 **Выполнил: Лось Д.В, Группа ИС-402**
 
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot1.png)
